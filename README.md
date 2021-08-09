@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Install bootstrap
+
+npm install bootstrap --save
+npm install --save @ng-bootstrap/ng-bootstrap
+
+## Import in app.module.ts
+
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+## Import bootstrap.css in style.css
+
+@import "~bootstrap/dist/css/bootstrap.css";  
